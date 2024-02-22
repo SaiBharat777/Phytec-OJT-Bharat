@@ -1,0 +1,103 @@
+import mraa 
+import time                                                                
+
+gpio_a = mraa.Gpio(12)
+gpio_b = mraa.Gpio(13)                                  
+gpio_c = mraa.Gpio(14)
+gpio_d = mraa.Gpio(15)
+gpio_e = mraa.Gpio(16)
+gpio_f = mraa.Gpio(20)
+gpio_g = mraa.Gpio(23)
+
+gpio_a.dir(mraa.DIR_OUT)
+gpio_b.dir(mraa.DIR_OUT)                                                 
+gpio_c.dir(mraa.DIR_OUT)
+gpio_d.dir(mraa.DIR_OUT)
+gpio_e.dir(mraa.DIR_OUT)
+gpio_f.dir(mraa.DIR_OUT)
+gpio_g.dir(mraa.DIR_OUT)
+
+
+# 7 seg Common Anode 
+
+while True:
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(0)		# DISPLAY 0
+    gpio_d.write(0)
+    gpio_e.write(0)
+    gpio_f.write(0)
+    gpio_g.write(1)
+    time.sleep(1)
+    gpio_a.write(1)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(1)		# DISPLAY 1
+    gpio_e.write(1)
+    gpio_f.write(1)
+    gpio_g.write(1)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(1)
+    gpio_d.write(0)		# DISPLAY 2
+    gpio_e.write(0)
+    gpio_f.write(1)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(0)		# DISPLAY 3
+    gpio_e.write(1)
+    gpio_f.write(1)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(1)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(1)		# DISPLAY 4
+    gpio_e.write(1)
+    gpio_f.write(0)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(1)
+    gpio_c.write(0)		# DISPLAY 5
+    gpio_d.write(0)
+    gpio_e.write(1)
+    gpio_f.write(0)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(1)
+    gpio_c.write(0)
+    gpio_d.write(0)		# DISPLAY 6
+    gpio_e.write(0)
+    gpio_f.write(0)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(1)		# DISPLAY 7
+    gpio_e.write(1)
+    gpio_f.write(1)
+    gpio_g.write(1)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(0)		# DISPLAY 8
+    gpio_e.write(0)
+    gpio_f.write(0)
+    gpio_g.write(0)
+    time.sleep(1)
+    gpio_a.write(0)
+    gpio_b.write(0)
+    gpio_c.write(0)
+    gpio_d.write(0)		# DISPLAY 9
+    gpio_e.write(1)
+    gpio_f.write(0)
+    gpio_g.write(0)
+    time.sleep(1)
