@@ -1,0 +1,4 @@
+../Core/Src/i2c.c:3:6:I2C1_init	4	static
+../Core/Src/i2c.c:28:5:I2C1_byteWrite	24	static
+../Core/Src/i2c.c:50:5:I2C1_byteRead	24	static
+../Core/Src/i2c.c:77:6:delayMs	24	static

@@ -1,0 +1,8 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+exti.c:10:6:pc13_exti_init	1
+exti.c:42:13:exti_callback	1
+exti.c:48:6:EXTI15_10_IRQHandler	3
+exti.c:68:6:uart2_init	1
+exti.c:98:13:uart_set_baudrate	1
+exti.c:103:17:compute_uart_bd	1
+exti.c:109:6:uart2_write	2

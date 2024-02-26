@@ -1,0 +1,4 @@
+../Core/Src/rtc.c:36:6:lcd_send_cmd	32	static
+../Core/Src/rtc.c:49:6:lcd_send_data	32	static
+../Core/Src/rtc.c:62:6:lcd_init	8	static
+../Core/Src/rtc.c:70:6:lcd_send_string	16	static

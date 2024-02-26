@@ -1,0 +1,4 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+exti.c:10:6:pc13_exti_init	1
+exti.c:40:13:exti_callback	1
+exti.c:46:6:EXTI15_10_IRQHandler	2

@@ -1,0 +1,12 @@
+main.c:390:13:MX_GPIO_Init	1
+main.c:135:6:get_time	1
+main.c:154:6:display_time	1
+main.c:162:6:HAL_RTC_AlarmAEventCallback	1
+main.c:167:6:to_do_on_alarm	2
+main.c:423:6:_Error_Handler	1
+main.c:74:6:set_time	1
+main.c:109:6:set_alarm	1
+main.c:326:13:MX_I2C1_Init	1
+main.c:346:13:MX_RTC_Init	1
+main.c:255:6:SystemClock_Config	1
+main.c:188:5:main	3

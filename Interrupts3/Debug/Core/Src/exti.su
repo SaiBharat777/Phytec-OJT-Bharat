@@ -1,0 +1,8 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Core/Src/exti.c:10:6:pc13_exti_init	8	static,ignoring_inline_asm
+../Core/Src/exti.c:42:13:exti_callback	4	static
+../Core/Src/exti.c:48:6:EXTI15_10_IRQHandler	16	static
+../Core/Src/exti.c:68:6:uart2_init	8	static
+../Core/Src/exti.c:98:13:uart_set_baudrate	24	static
+../Core/Src/exti.c:103:17:compute_uart_bd	16	static
+../Core/Src/exti.c:109:6:uart2_write	16	static

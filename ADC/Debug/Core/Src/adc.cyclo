@@ -1,0 +1,3 @@
+adc.c:3:6:pa1_adc_init	1
+adc.c:27:6:start_converstion	1
+adc.c:35:10:adc_read	2

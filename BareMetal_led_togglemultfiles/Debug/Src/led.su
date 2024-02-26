@@ -1,0 +1,2 @@
+../Src/led.c:3:6:ledinit	4	static
+../Src/led.c:10:6:led_toggle	4	static

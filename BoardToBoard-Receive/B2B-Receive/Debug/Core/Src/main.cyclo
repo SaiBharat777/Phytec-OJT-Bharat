@@ -1,0 +1,5 @@
+main.c:10:17:main	1
+main.c:28:18:USART2_init	1
+main.c:46:6:USART2_read	2
+main.c:55:6:LED_blink	2
+main.c:68:6:delayMs	3
